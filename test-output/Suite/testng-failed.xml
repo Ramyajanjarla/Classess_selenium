@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Automationframeworktest.AssignmentsTest">
+        <methods>
+          <include name="viewStudentHomework"/>
+          <include name="NoHomeworkFor90"/>
+          <include name="Adaptive"/>
+          <include name="Stratified"/>
+          <include name="AddQuestionTypeMultipleChoice"/>
+          <include name="clickonSubjective"/>
+          <include name="flushReports"/>
+          <include name="clickHomeworkDropdown"/>
+          <include name="setUp"/>
+          <include name="enterMarks"/>
+          <include name="AttachRubrics"/>
+          <include name="EnterTopics"/>
+          <include name="closeView"/>
+          <include name="ClickOnTopic"/>
+          <include name="ClickRubricslink"/>
+          <include name="selectQuestionType"/>
+          <include name="setUpTest"/>
+          <include name="idealAnswer"/>
+          <include name="tearDown"/>
+          <include name="AssignHomeworkButton"/>
+        </methods>
+      </class> <!-- com.Automationframeworktest.AssignmentsTest -->
+      <class name="com.Automationframeworktest.ClassessPageTest">
+        <methods>
+          <include name="testClickOnClassesPageLink"/>
+          <include name="testMicOn"/>
+          <include name="flushReports"/>
+          <include name="setUp"/>
+          <include name="setUpTest"/>
+          <include name="testViewQuizClose"/>
+          <include name="scrollToElement"/>
+          <include name="scrolldown"/>
+          <include name="testClickNextButton"/>
+          <include name="testViewQuizButton"/>
+          <include name="testClickOnLesson"/>
+          <include name="tearDown"/>
+          <include name="testMicOff"/>
+        </methods>
+      </class> <!-- com.Automationframeworktest.ClassessPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

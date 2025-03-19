@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="40" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-17T06:03:17Z" name="Suite" finished-at="2025-03-17T06:06:39Z" duration-ms="201804">
+    <groups>
+    </groups>
+    <test started-at="2025-03-17T06:03:17Z" name="Test" finished-at="2025-03-17T06:06:39Z" duration-ms="201804">
+      <class name="com.Automationframeworktest.AssignmentsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:33:51Z" name="setUp" finished-at="2025-03-17T11:33:55Z" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:33:55Z" name="setUpTest" finished-at="2025-03-17T11:34:03Z" duration-ms="7600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testOpenAssignmentsPage()[pri:1, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:34:03Z" name="testOpenAssignmentsPage" finished-at="2025-03-17T11:34:08Z" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAssignmentsPage -->
+        <test-method signature="SocialScience9A()[pri:2, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:34:15Z" name="SocialScience9A" finished-at="2025-03-17T11:34:18Z" duration-ms="2783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SocialScience9A -->
+        <test-method signature="clickHomeworkDropdown()[pri:3, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:34:19Z" name="clickHomeworkDropdown" finished-at="2025-03-17T11:34:37Z" duration-ms="17508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHomeworkDropdown -->
+        <test-method signature="viewStudentHomework()[pri:4, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:34:38Z" name="viewStudentHomework" finished-at="2025-03-17T11:34:39Z" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewStudentHomework -->
+        <test-method signature="closeView()[pri:6, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:35:03Z" name="closeView" finished-at="2025-03-17T11:35:04Z" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeView -->
+        <test-method signature="AssignHomeworkButton()[pri:7, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:35:27Z" name="AssignHomeworkButton" finished-at="2025-03-17T11:35:42Z" duration-ms="14139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignHomeworkButton -->
+        <test-method signature="ClickOnTopic()[pri:8, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:35:55Z" name="ClickOnTopic" finished-at="2025-03-17T11:36:05Z" duration-ms="10313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTopic -->
+        <test-method signature="EnterTopics()[pri:9, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:06Z" name="EnterTopics" finished-at="2025-03-17T11:36:07Z" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterTopics -->
+        <test-method signature="NoHomeworkFor90()[pri:10, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:07Z" name="NoHomeworkFor90" finished-at="2025-03-17T11:36:09Z" duration-ms="1242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoHomeworkFor90 -->
+        <test-method signature="selectQuestionType()[pri:11, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:09Z" name="selectQuestionType" finished-at="2025-03-17T11:36:10Z" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectQuestionType -->
+        <test-method signature="AddQuestionTypeMultipleChoice()[pri:12, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:10Z" name="AddQuestionTypeMultipleChoice" finished-at="2025-03-17T11:36:11Z" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddQuestionTypeMultipleChoice -->
+        <test-method signature="Stratified()[pri:13, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:11Z" name="Stratified" finished-at="2025-03-17T11:36:21Z" duration-ms="10214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Stratified -->
+        <test-method signature="Adaptive()[pri:14, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:21Z" name="Adaptive" finished-at="2025-03-17T11:36:32Z" duration-ms="10233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adaptive -->
+        <test-method signature="clickonSubjective()[pri:15, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:32Z" name="clickonSubjective" finished-at="2025-03-17T11:36:33Z" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonSubjective -->
+        <test-method signature="enterMarks()[pri:16, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:33Z" name="enterMarks" finished-at="2025-03-17T11:36:34Z" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMarks -->
+        <test-method signature="idealAnswer()[pri:17, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:34Z" name="idealAnswer" finished-at="2025-03-17T11:36:35Z" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idealAnswer -->
+        <test-method signature="AttachRubrics()[pri:18, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:35Z" name="AttachRubrics" finished-at="2025-03-17T11:36:36Z" duration-ms="1241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AttachRubrics -->
+        <test-method signature="ClickRubricslink()[pri:19, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:36Z" name="ClickRubricslink" finished-at="2025-03-17T11:36:39Z" duration-ms="2283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRubricslink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automationframeworktest.AssignmentsTest@3e6ef8ad]" started-at="2025-03-17T11:36:39Z" name="tearDown" finished-at="2025-03-17T11:36:39Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Automationframeworktest.AssignmentsTest -->
+      <class name="com.Automationframeworktest.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:33:34Z" name="setUp" finished-at="2025-03-17T11:33:37Z" duration-ms="3146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:33:37Z" name="setUpTest" finished-at="2025-03-17T11:33:41Z" duration-ms="3162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testClickSocialScience9A()[pri:1, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:33:41Z" name="testClickSocialScience9A" finished-at="2025-03-17T11:33:41Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSocialScience9A -->
+        <test-method signature="testClickSocialScience9B()[pri:2, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:34:08Z" name="testClickSocialScience9B" finished-at="2025-03-17T11:34:08Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSocialScience9B -->
+        <test-method signature="testClickSocialScience9C()[pri:3, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:34:18Z" name="testClickSocialScience9C" finished-at="2025-03-17T11:34:18Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSocialScience9C -->
+        <test-method signature="testClickSocialScience9D()[pri:4, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:34:37Z" name="testClickSocialScience9D" finished-at="2025-03-17T11:34:37Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickSocialScience9D -->
+        <test-method signature="ToDOList_clickAddbutton()[pri:5, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:34:39Z" name="ToDOList_clickAddbutton" finished-at="2025-03-17T11:34:39Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToDOList_clickAddbutton -->
+        <test-method signature="AddDescription_ForToDo()[pri:6, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:34:42Z" name="AddDescription_ForToDo" finished-at="2025-03-17T11:34:43Z" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDescription_ForToDo -->
+        <test-method signature="scrollToElement()[pri:7, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:35:04Z" name="scrollToElement" finished-at="2025-03-17T11:35:15Z" duration-ms="11081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElement -->
+        <test-method signature="testScrollUp()[pri:7, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:35:15Z" name="testScrollUp" finished-at="2025-03-17T11:35:26Z" duration-ms="11079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScrollUp -->
+        <test-method signature="Practice()[pri:8, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:35:42Z" name="Practice" finished-at="2025-03-17T11:35:53Z" duration-ms="11076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Practice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automationframeworktest.DashboardTest@65f095f8]" started-at="2025-03-17T11:35:53Z" name="tearDown" finished-at="2025-03-17T11:35:54Z" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Automationframeworktest.DashboardTest -->
+      <class name="com.Automationframeworktest.ClassessPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:33:41Z" name="setUp" finished-at="2025-03-17T11:33:44Z" duration-ms="3161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:33:44Z" name="setUpTest" finished-at="2025-03-17T11:33:47Z" duration-ms="3406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="testClickOnClassesPageLink()[pri:1, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:33:47Z" name="testClickOnClassesPageLink" finished-at="2025-03-17T11:33:51Z" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnClassesPageLink -->
+        <test-method signature="testClickOnLesson()[pri:2, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:34:08Z" name="testClickOnLesson" finished-at="2025-03-17T11:34:15Z" duration-ms="6832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickOnLesson -->
+        <test-method signature="testMicOn()[pri:3, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:34:18Z" name="testMicOn" finished-at="2025-03-17T11:34:19Z" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMicOn -->
+        <test-method signature="testMicOff()[pri:4, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:34:37Z" name="testMicOff" finished-at="2025-03-17T11:34:38Z" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMicOff -->
+        <test-method signature="scrollToElement()[pri:5, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:34:39Z" name="scrollToElement" finished-at="2025-03-17T11:34:42Z" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToElement -->
+        <test-method signature="scrolldown()[pri:6, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:34:43Z" name="scrolldown" finished-at="2025-03-17T11:35:03Z" duration-ms="20194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldown -->
+        <test-method signature="testViewQuizButton()[pri:7, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:35:26Z" name="testViewQuizButton" finished-at="2025-03-17T11:35:27Z" duration-ms="1149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewQuizButton -->
+        <test-method signature="testViewQuizClose()[pri:8, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:35:54Z" name="testViewQuizClose" finished-at="2025-03-17T11:35:55Z" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewQuizClose -->
+        <test-method signature="testClickNextButton()[pri:9, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:36:05Z" name="testClickNextButton" finished-at="2025-03-17T11:36:06Z" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickNextButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automationframeworktest.ClassessPageTest@59af0466]" started-at="2025-03-17T11:36:06Z" name="tearDown" finished-at="2025-03-17T11:36:06Z" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Automationframeworktest.ClassessPageTest -->
+      <class name="com.Automationframeworktest.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.Automationframeworktest.LoginTest@34f7cfd9]" started-at="2025-03-17T11:33:17Z" name="setUp" finished-at="2025-03-17T11:33:30Z" duration-ms="13039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.Automationframeworktest.LoginTest@34f7cfd9]" started-at="2025-03-17T11:33:30Z" name="testValidLogin" finished-at="2025-03-17T11:33:34Z" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Automationframeworktest.LoginTest@34f7cfd9]" started-at="2025-03-17T11:33:34Z" name="tearDown" finished-at="2025-03-17T11:33:34Z" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:com.Automationframeworktest.LoginTest@34f7cfd9]" started-at="2025-03-17T11:36:39Z" name="flushReports" finished-at="2025-03-17T11:36:39Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- com.Automationframeworktest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

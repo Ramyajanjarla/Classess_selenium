@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 17 11:33:17 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>201 seconds (201804 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.Adaptive()'><b>Adaptive</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>10</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.AddDescription_ForToDo()'><b>AddDescription_ForToDo</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.AddQuestionTypeMultipleChoice()'><b>AddQuestionTypeMultipleChoice</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.AssignHomeworkButton()'><b>AssignHomeworkButton</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>14</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.AttachRubrics()'><b>AttachRubrics</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.ClickOnTopic()'><b>ClickOnTopic</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>10</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.ClickRubricslink()'><b>ClickRubricslink</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>2</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.EnterTopics()'><b>EnterTopics</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.NoHomeworkFor90()'><b>NoHomeworkFor90</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.Practice()'><b>Practice</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>11</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.SocialScience9A()'><b>SocialScience9A</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>2</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.Stratified()'><b>Stratified</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>10</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.ToDOList_clickAddbutton()'><b>ToDOList_clickAddbutton</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.clickHomeworkDropdown()'><b>clickHomeworkDropdown</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>17</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.clickonSubjective()'><b>clickonSubjective</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.closeView()'><b>closeView</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.enterMarks()'><b>enterMarks</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.idealAnswer()'><b>idealAnswer</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.scrollToElement()'><b>scrollToElement</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.scrollToElement()'><b>scrollToElement</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>11</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.scrolldown()'><b>scrolldown</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>20</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.selectQuestionType()'><b>selectQuestionType</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testClickNextButton()'><b>testClickNextButton</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testClickOnClassesPageLink()'><b>testClickOnClassesPageLink</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testClickOnLesson()'><b>testClickOnLesson</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.testClickSocialScience9A()'><b>testClickSocialScience9A</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.testClickSocialScience9B()'><b>testClickSocialScience9B</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.testClickSocialScience9C()'><b>testClickSocialScience9C</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.testClickSocialScience9D()'><b>testClickSocialScience9D</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>0</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testMicOff()'><b>testMicOff</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testMicOn()'><b>testMicOn</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.testOpenAssignmentsPage()'><b>testOpenAssignmentsPage</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>5</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+<tr>
+<td title='com.Automationframeworktest.DashboardTest.testScrollUp()'><b>testScrollUp</b><br>Test class: com.Automationframeworktest.DashboardTest</td>
+<td></td>
+<td>11</td>
+<td>com.Automationframeworktest.DashboardTest@65f095f8</td></tr>
+<tr>
+<td title='com.Automationframeworktest.LoginTest.testValidLogin()'><b>testValidLogin</b><br>Test class: com.Automationframeworktest.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>com.Automationframeworktest.LoginTest@34f7cfd9</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testViewQuizButton()'><b>testViewQuizButton</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.ClassessPageTest.testViewQuizClose()'><b>testViewQuizClose</b><br>Test class: com.Automationframeworktest.ClassessPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.ClassessPageTest@59af0466</td></tr>
+<tr>
+<td title='com.Automationframeworktest.AssignmentsTest.viewStudentHomework()'><b>viewStudentHomework</b><br>Test class: com.Automationframeworktest.AssignmentsTest</td>
+<td></td>
+<td>1</td>
+<td>com.Automationframeworktest.AssignmentsTest@3e6ef8ad</td></tr>
+</table><p>
+</body>
+</html>
